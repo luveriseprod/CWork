@@ -5,14 +5,6 @@
     margin: 0;
     padding: 0;
 }
-.gl {
-  align-items: center;
-  justify-content: center;
-
-}
-
-
-
 
 .header {
     background-color: rgb(252, 252, 252);
@@ -59,8 +51,8 @@
 /* banner iphone14pm */
 
 .block1 {
-    background-color: rgb(0, 0, 0);
-    width: 100%
+    background-color: rgb(136, 13, 13);
+    height: 700px;
 }
 
 .block1 p {
@@ -74,8 +66,7 @@
 
 .block1 img {
     display: flex;
-    margin-left: 500px;
-    width: 1200px;
+    height: 700px;
 }
 
 .block1 button {
