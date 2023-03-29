@@ -3,23 +3,28 @@
     padding: 0;
 }
 
-.body {
-    
-}
 .header {
     background-color:rgb(255, 162, 162);
     width: 100%;
     height: 100px;
+
+}
+
+.texthead ul {
+    
     display: flex;
+    list-style: none;
 }
 
-.texthead {
-    font-size: 2vh;
+.texthead li {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 10px;
+    background-color: aqua;
 }
-
 .texthead img {
-    max-width: 40px;
-    max-height: 40px;
+    width: 70px;
 }
 
 .block1 img {
