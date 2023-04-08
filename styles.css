@@ -6,9 +6,6 @@
     padding: 0;
 }
 
-.body{
-    max-width: 1566px;
-}
 .applelogo {
     width: 180px;
 }
@@ -18,7 +15,6 @@
     height: 80px;
     align-items: center;
     display: flex;
-    max-width: 1540px;
 }
 
 .texthead ul {
@@ -55,16 +51,30 @@
     width: 50px;
 }
 
+
+
+
 /* banner iphone14pm */
+.block1_1 {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+.block1_2 {
+    margin: auto;
+    height: 600px;
+    max-width: 1600px;
+}
 
 .block1 {
-    width: 1540px;
-    background-color: rgb(0, 0, 0);
     height: 600px;
     display: flex;
+    justify-content: end;
 }
 
 .ip14text p {
+    width:fit-content;
     color: rgb(255, 255, 255);
     position:relative;
     bottom: 460px;
@@ -74,12 +84,9 @@
 }
 
 .block1 img {
-    width: 1280px;
-    height: 600px;
-    margin-left: 500px;
-}
-.ip14text {
-    height: 0;
+    background-color: rgb(54, 17, 124);
+    object-fit: contain;
+    height: 100%;
 }
 
 
@@ -101,18 +108,38 @@
     cursor: pointer;
 }
 
+
+
+
+
+
+
 /* Товары */
 
 .catbox {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    width: 1566.66px;
+    width: 100%;
 }
 
-.catiphone {
+
+
+.catitem img {
+    max-width: 160px;
+
+}
+
+.catitem:hover {
+    background-color: rgba(102, 102, 102, 0.144);
+    cursor: pointer;
+}
+
+.catitem{
+    flex: 1 1 25%;
+    padding: 40px;
     border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,113 +148,8 @@
     font-size: 16px
 }
 
-.catiphone img {
-    height: 65%;
-    width: 50%;
-
-}
-
-.catiphone:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
-
-.catipad{
-    border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px
-}
-
-.catipad img {
-    height: 65%;
-    width: 50%;
-}
-
-.catipad:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
-
-.catwatch {
-    border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px
-}
-.catwatch img {
-    height: 65%;
-    width: 50%;
-}
-.catwatch:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
-.catmac {
-    border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px
-}
-.catmac img {
-    height: 65%;
-    width: 50%;
-}
-.catmac:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
-.catairpods {
-    border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px
-}
-.catairpods img {
-    height: 65%;
-    width: 50%;
-}
-.catairpods:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
-.catbump {
-    border: 1px rgb(158, 157, 157) solid;
-    width: 519px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 16px
-}
-.catbump img {
-    height: 65%;
-    width: 50%;
-}
-.catbump:hover {
-    background-color: rgba(102, 102, 102, 0.144);
-    cursor: pointer;
-}
 
 .foot {
-    max-width: 1566px;
     background-color: rgb(36, 36, 36);
     height: 150px;
     display: flex;
@@ -242,3 +164,48 @@
 }
 
 
+
+
+/* IPHONE ALL */
+
+.iphone_all {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.ip_item{
+    flex: 1 1 25%;
+    padding: 40px;
+    border: 1px rgb(158, 157, 157) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px
+}
+
+.ip_item img {
+    max-width: 160px;
+}
+
+.ip_item button {
+    display: none;
+    background-color: chocolate;
+}
+
+.ip_item:hover {
+    border: 2px rgb(158, 157, 157) solid;
+}
+
+.ip_item:hover button{
+    width: 80px;
+    height: 25px;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
